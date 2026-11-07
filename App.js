@@ -6,6 +6,7 @@ import EjerciciosScreen from './src/screens/EjerciciosScreen';
 import TareasScreen from './src/screens/TareasScreen';
 import AgendaScreen from './src/screens/AgendaScreen';
 import PerfilScreen from './src/screens/PerfilScreen';
+import IniciarScreen from './src/screens/Iniciar';
 
 const Tab = createBottomTabNavigator();
 
@@ -32,6 +33,7 @@ export default function App() {
         <Tab.Screen name="TAREAS" component={TareasScreen} />
         <Tab.Screen name="AGENDA" component={AgendaScreen} />
         <Tab.Screen name="PERFIL" component={PerfilScreen} />
+        <Tab.Screen name ="INICIAR" component={IniciarScreen}/>
       </Tab.Navigator>
     </NavigationContainer>
   );

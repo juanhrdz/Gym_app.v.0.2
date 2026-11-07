@@ -2,7 +2,7 @@ import espalda from './espalda';
 import pierna from './pierna';
 import biceps from './biceps';
 import triceps from './triceps';
-import antebrazo from './antebrazo';
+import antebrazo from './antebrazos';
 import core from './core';
 
 // Todas las zonas, por nombre

@@ -1,6 +1,6 @@
 // src/models/EjercicioConPeso.js
 import Ejercicio from './Ejercicio';
-import { TIPOS } from './Constantsonstants';
+import { TIPOS } from './Constants';
 
 /**
  * Ejercicios con carga externa: barra, mancuernas, poleas, máquinas.
